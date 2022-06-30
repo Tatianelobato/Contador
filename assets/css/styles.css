@@ -1,0 +1,67 @@
+
+* {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.container{
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    width: 300px;
+    margin-top:30px ;
+    border-radius:50%;
+    border: 5px solid rgba(240, 128, 128, 0.726);
+    background-color: rgba(248, 228, 234, 0.979);
+    color: rgba(12, 9, 12, 0.904);
+    font-family:fantasy;
+    font-size: 35pt;
+    font-weight: 600;
+    text-align:center;
+    border-radius: 20pt;
+  }
+
+  p{
+        margin-block: 5px;
+        background-color: rgba(255, 255, 255, 0.363);
+        border: 1px solid white;
+        border-radius:10px ;
+        width: 200px;
+        text-align: center;
+
+  }
+
+  
+body {
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: rgb(177, 226, 255);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
